@@ -8,7 +8,7 @@ class Enemy:
         print('ouch!')
         self.life -= 1
 
-    def checkLife(self):
+    def check_life(self):
         if self.life <= 0:
             print('Dead')
         else:
